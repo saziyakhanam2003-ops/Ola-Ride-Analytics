@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS bookings;
+create table bookings(
+Date VARCHAR(20),
+Time VARCHAR(20),
+Booking_ID VARCHAR(30),
+Booking_Status VARCHAR(50),
+Customer_ID VARCHAR(30),
+Vehicle_Type VARCHAR(50),
+Pickup_Location VARCHAR(100),
+Drop_Location VARCHAR(100),
+V_TAT TEXT,
+C_TAT TEXT,
+Canceled_Rides_by_Customer VARCHAR(100),
+Canceled_Rides_by_Driver VARCHAR(100),
+Incomplete_Rides VARCHAR(20),
+Incomplete_Rides_Reason VARCHAR(100),
+Booking_Value NUMERIC,
+Payment_Method VARCHAR(50),
+Ride_Distance NUMERIC,
+Drive_ratings TEXT,
+Customer_Rating TEXT,
+Vehicle_Images TEXT
+);
+select * from bookings;
