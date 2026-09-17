@@ -144,7 +144,7 @@ The SQL part includes database creation, data validation, and business analysis 
 
 ## Revenue Dashboard
 
-![Revenue](Images/revenue.png)
+![Revenue](Images/revenue.1.png)
 
 ---
 
